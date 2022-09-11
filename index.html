@@ -5,10 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link rel="icon" sizes="32x32" type="image/png" href="https://cdn.discordapp.com/attachments/880872510923616317/1018621321481039943/image1.png" >
+ <style>
+  .card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.btn:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 
+}
+ </style>
     <title>Central de ajuda</title>
 </head>
-<body>
+<body style="background-color: rgba(156, 156, 156, 0.486);">
 
     <nav class="navbar navbar-expand-md py-2 navbar-light bg-white " >
 
@@ -21,31 +32,44 @@
                 <button type="button" class="navbar-toggler  border-0 p-0" data-bs-toggle="collapse"
                 data-bs-target="#mynavbar"
                 aria-controls="collapsibleNavbar" 
-                aria-expanded="false" aria-label="Toggle navigation">
+                aria-expanded="false" 
+                aria-label="Toggle navigation"
+                >
 
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse justify-content-end" id="mynavbar">
-                <ul class="navbar-nav ">
-                
-                    <li class="nav-item">
-                    <a class="nav-link" href="javascript:void(0)">Link</a>
+              <div class="container-fluid" id="mynavbar"> 
+
+                <ul class="navbar-nav justify-content-end align-items-center"> 
+
+                  <li class="nav-item pe-5 ">
+                    <a class="btn btn-success text-white " href="#">Fale conosco</a>
+                      
+                  </li>
+                 
+                    <li class="nav-item text-center ">
+
+                      <a class="nav-link" href="https://www.youtube.com/c/WorkGroup"><i class="bi bi-youtube text-danger" style="font-size: 1.3rem ;"></i></a>
+
+                    </li>
+                    <li class="nav-item text-center">
+
+                      <a class="nav-link" href="https://br.linkedin.com/company/workgroup-aftermarket"><i class="bi bi-linkedin text-primary"  style="font-size: 1.2rem ;"></i></a>
+
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">
-                            <span class="icon-"></span>
-                        </a>
+
+                      
+
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="javascript:void(0)">Link</a>
-                    </li>
+                    
                 </ul>
-                </div>
+             
+              </div>
         </div>
     </nav>
-    
-    
+   
     <header class="masthead  "
      style="
      background: url(https://cdn.discordapp.com/attachments/880872510923616317/1016472254453907538/motorFusca.png) no-repeat center center;
@@ -71,148 +95,208 @@
                 </div>
             </div>
         </div>
-        </divcla>
+      </div>
     </header>
-  
-
-    <main class="container-fluid  mt-5  pt-3  rounded-3 justify-content-center " style="background-color:rgb(24,43,70); height:cover; width: 60%;"> 
+    <main class="col-10 col-md-8 mx-auto  my-5  py-5 shadow-lg mb-5 rounded-3 justify-content-center " style="background-color:rgb(24,43,70); height:cover;"> 
 
       
-          <div class="  w-100 d-flex align-items-center justify-content-center">
+      <div class=" container-fluid  w-100 mb-3  d-flex align-items-center justify-content-center">
+        
+        <ul class="nav nav-pills  row-cols-2  align-items-center  justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item  pe-1 " role="presentation">
+            <button class=" btn btn-outline-info  shadow-lg active py-sx-3 py-md-3 w-100 h-100  " id="pills-OSDigital-tab" data-bs-toggle="pill" data-bs-target="#OSDigital" type="button" role="tab" aria-controls="OSDigital" aria-selected="true">
+              <img class="img-fluid "
+              src="https://cdn.discordapp.com/attachments/1015357554378936350/1016645352952168521/OSDigital.png "  alt="OSDigital">
+            </button>
+          </li>
+          <li class="nav-item  ps-1 " role="presentation">
+            <button class="btn btn-outline-info  shadow-lg py-0 py-md-2 w-100 h-100 " id="pills-WorkMotor-tab" data-bs-toggle="pill" data-bs-target="#WorkMotor" type="button" role="tab" aria-controls="WorkMotor" aria-selected="false">
+              <img class="img-fluid" 
+              src="https://cdn.discordapp.com/attachments/1015357554378936350/1016645353149308978/WorkMotor.png" alt="WorkMotor">
+            </button>
+          </li>
+        </ul>
+      </div>
+      
+        
+        <div class="tab-content   rounded-3 d-block justify-content-center" id="pills-tabContent" style="height: cover;" >
+        
+        <div class=" tab-pane fade show active py-2" id="OSDigital" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
             
-            <ul class="nav nav-pills row-cols-2  align-items-center justify-content-center" id="pills-tab" role="tablist">
-              <li class="nav-item" role="presentation">
-                <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#OSDigital" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
-                  <img class="img-fluid"
-                  src="https://cdn.discordapp.com/attachments/1015357554378936350/1016645352952168521/OSDigital.png" alt="OSDigital">
-                </button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#WorkMotor" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
-                  <img class="img-fluid" 
-                  src="https://cdn.discordapp.com/attachments/1015357554378936350/1016645353149308978/WorkMotor.png" alt="WorkMotor">
-                </button>
-              </li>
-            </ul>
-          </div>
-          
+  
             
-      <div class="tab-content   rounded-3 d-block justify-content-center" id="pills-tabContent" style="height: cover;" >
-            
-            <div class=" container tab-pane fade show active p-0 py-2 " id="OSDigital" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
-                
-
-                <div class=" container-fluid  m-auto g-1 py-3 row row-cols-1 row-cols-md-2 rounded-2" style="width: 55vw;">
-
-                    <div class=" col pb-3">
-                      <div class="card text-center mx-auto w-75 " style=" height: 170px;">                      
-                        <div class="card-body">
-                          <i class="bi bi-journal-bookmark " style="font-size: 4rem ;"></i>
-                          <h5 class="card-text">Base de conhecimento</h5>
-                          <a href="#" class="stretched-link"></a>
-                        </div>
+          <div class=" container-fluid " >
+  
+              <div class="row wow fadeIn justify-content-center">
+                <div class="col-6 col-md-4 ">
+                  <div class="  pb-3">
+                    <div class="card text-center" style=" height: 170px;">                      
+                      <div class="card-body  ">
+                        <i class="bi bi-journal-bookmark " style="font-size: 3rem ;"></i>
+                        <h5 class="card-text">Base de conhecimento</h5>
+                        <a href="#" class="stretched-link"></a>
                       </div>
                     </div>
-              
-                  <div class=" col pb-3 "  >
-                      <div class="card text-center mx-auto  w-75" style=" height: 170px;">
-                        <div class="card-body">
-                          <i class="bi bi-arrow-repeat" style="font-size: 4rem ;"></i>
-                          <h5 class="card-text">Atualizações</h5>
-                          <a href="#" class="stretched-link"></a>
-                        </div>
-                      </div>
-                    </div>
-              
-                  <div class=" col pb-3">
-                    <div class="card text-center mx-auto w-75" style=" height: 170px;">
+                  </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card text-center " style=" height: 170px;">
                       <div class="card-body">
-                          <i class="bi bi-list-check" style="font-size: 4rem ;"></i>
-                          <h5 class="card-text">Requisitoso</h5>
-                          <a href="#" class="stretched-link"></a>
+                        <i class="bi bi-arrow-repeat" style="font-size: 3rem ;"></i>
+                        <h5 class="card-text">Atualizações</h5>
+                        <a href="#" class="stretched-link"></a>
                       </div>
                     </div>
                   </div>
-              
-                  <div class="col pb-3 ">
-                      <div class="card  text-center mx-auto w-75" style=" height: 170px;">
-                        <div class="card-body">
-                            <i class="bi bi-lightbulb" style="font-size: 4rem ;"></i>
-                            <h5 class="card-text">Requisitoso</h5>
-                            <a href="#" class="stretched-link"></a>
-                        </div>
-                      </div>
-                    </div>
-
-                </div>
-              
             </div>
-
-              
-
-            <div class="container tab-pane fade justify-content-center " id="WorkMotor" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-
-              <div class=" container-fluid  m-auto g-1 py-3 row row-cols-1 row-cols-md-2 rounded-2" style="width: 55vw;">
-
-                <div class=" col pb-3">
-                  <div class="card text-center mx-auto w-75 " style=" height: 170px;">                      
-                    <div class="card-body">
-                      <i class="bi bi-journal-bookmark " style="font-size: 4rem ;"></i>
-                      <h5 class="card-text">Base de conhecimento</h5>
-                      <a href="#" class="stretched-link"></a>
-                    </div>
-                  </div>
-                </div>
-          
-              <div class=" col pb-3 "  >
-                  <div class="card text-center mx-auto  w-75" style=" height: 170px;">
-                    <div class="card-body">
-                      <i class="bi bi-arrow-repeat" style="font-size: 4rem ;"></i>
-                      <h5 class="card-text">Atualizações</h5>
-                      <a href="#" class="stretched-link"></a>
-                    </div>
-                  </div>
-                </div>
-          
-              <div class=" col pb-3">
-                <div class="card text-center mx-auto w-75" style=" height: 170px;">
+            
+            <div class="row wow fadeIn justify-content-center">
+              <div class=" col-6 col-md-4  ">
+                <div class="card text-center" style=" height: 170px;">
                   <div class="card-body">
-                      <i class="bi bi-list-check" style="font-size: 4rem ;"></i>
-                      <h5 class="card-text">Requisitoso</h5>
+                      <i class="bi bi-list-check" style="font-size: 3rem ;"></i>
+                      <h5 class="card-text">Requisitos</h5>
                       <a href="#" class="stretched-link"></a>
                   </div>
                 </div>
               </div>
           
-              <div class="col pb-3 ">
-                  <div class="card  text-center mx-auto w-75" style=" height: 170px;">
-                    <div class="card-body">
-                        <i class="bi bi-lightbulb" style="font-size: 4rem ;"></i>
-                        <h5 class="card-text">Requisitoso</h5>
+              <div class=" col-6 col-md-4 ">
+                  <div class="card  text-center " style=" height: 170px;">
+                    <div class="card-body ">
+                        <i class="bi bi-lightbulb" style="font-size: 3rem ;"></i>
+                        <h5 class="card-text">Dicas</h5>
                         <a href="#" class="stretched-link"></a>
                     </div>
                   </div>
                 </div>
-
             </div>
-
+            
+          
           </div>
-
+        </div>
+  
+          
+  
+        <div class="tab-pane fade justify-content-center py-2 " id="WorkMotor" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+  
+          <div class=" container-fluid " >
+  
+            <div class="row wow fadeIn justify-content-center">
+              <div class="col-6 col-md-4 ">
+                <div class="  pb-3">
+                  <div class="card text-center" style=" height: 170px;">                      
+                    <div class="card-body  ">
+                      <i class="bi bi-journal-bookmark " style="font-size: 3rem ;"></i>
+                      <h5 class="card-text">Base de conhecimento</h5>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                  <div class="card text-center " style=" height: 170px;">
+                    <div class="card-body">
+                      <i class="bi bi-arrow-repeat" style="font-size: 3rem ;"></i>
+                      <h5 class="card-text">Atualizações</h5>
+                      <a href="#" class="stretched-link"></a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          
+          <div class="row wow fadeIn justify-content-center">
+            <div class=" col-6 col-md-4  ">
+              <div class="card text-center" style=" height: 170px;">
+                <div class="card-body">
+                    <i class="bi bi-list-check" style="font-size: 3rem ;"></i>
+                    <h5 class="card-text">Requisitos</h5>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+              </div>
+            </div>
+        
+            <div class=" col-6 col-md-4 ">
+                <div class="card  text-center " style=" height: 170px;">
+                  <div class="card-body ">
+                      <i class="bi bi-lightbulb" style="font-size: 3rem ;"></i>
+                      <h5 class="card-text">Dicas</h5>
+                      <a href="#" class="stretched-link"></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          
+        
+        </div>
+        
+        </div>
+  
       </div>
-    </main>
-      <footer class="container">
-        
-          <div class="py-3 my-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-              <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
-            </ul>
-            <p class="text-center text-muted">© 2022 WorkGroup</p>
+  
+    </div>
+  </main> 
+  
+    
+   
+    
+      <footer class=" text-white text-center text-lg-start mt-5" style="background-color: rgb(24,43,70); height:cover;">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+             <a target="_blank" href="https://www.osdig.com.br/"><img class="img-fluid "
+              src="https://cdn.discordapp.com/attachments/1015357554378936350/1016645352952168521/OSDigital.png "  alt="OSDigital">
+            </a> 
+              <p>
+                OSDigital um sistema de gerenciamento para oficina 100%
+                online Emita ordens de serviço, notas ficais e tenha acesso de onde estiver.
+              </p>
+              
+              <ul class="nav align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://www.facebook.com/osdigital.br"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://www.instagram.com/o.s.digital/"><i class="bi bi-instagram"></i></a>
+                </li>
+              </ul>
+            
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0 ">
+              <a target="_blank" href="https://www.workmotor.com.br/?gclid=Cj0KCQjwjvaYBhDlARIsAO8PkE0HFBSNSaBMgQmr3ZvLpIXg0f_xvjXxiHH2g54XBjYBy0sBkOPwI_waAumWEALw_wcB">
+                <img class="img-fluid hover-overlay " 
+                src="https://cdn.discordapp.com/attachments/1015357554378936350/1016645353149308978/WorkMotor.png" alt="WorkMotor">
+              </a>
+              <p>
+                O WorkMotor é um sistema completo de gestão de autopeças, que atende oficinas mecânicas,
+                reparadores, atacarejos e lojas de peças automotivas.
+              </p>
+              <ul class="nav align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://www.facebook.com/workmotorbrasil"><i class="bi bi-facebook"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" target="_blank" href="https://www.instagram.com/workmotor.brasil/"><i class="bi bi-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
           </div>
-        
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 por WorkGroup
+        </div>
+        <!-- Copyright -->
       </footer>
     
 
